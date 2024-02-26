@@ -1,0 +1,23 @@
+input[type=text] {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+    display: inline-block;
+    margin-right: 4px;
+    width: 30%;
+}
+
+button.primary {
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+    background: var(--primary-color);
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+
+    input[type="text"] {
+        width: 70%;
+    }   
+  }
